@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body {
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+    background: #60c4dc;
+    color: #fff;
+
+
+}
+
+
+.overlay {
+    height: 410px;
+    width: 100%;
+}
+
+.overlay h2 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    left: 30px;
+    top: 525px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+
+}
+
+.overlay img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0px;
+
+}
+
+header {
+    padding: 0px 40px;
+    background: #ffffff;
+    align-items: center;
+    color: #60c4dc;
+}
+
+header h1 {
+    grid-column: span 5;
+    font-size: 75px;
+    margin-bottom: 0px;
+
+}
+
+header nav {
+
+    grid-column: span 9;
+    justify-self: left;
+    grid-row: 2;
+
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: #60c4dc;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    color: black;
+    background-color: #60c4dc;
+}
+
+.location {
+    color: black;
+}
+
+.generalinfo {
+    display: grid;
+    grid-column: 10 / span 13;
+    font-size: 20px;
+    color: #9cc653;
+    margin-bottom: 0px;
+
+}
+
+.location {
+    color: #60c4dc
+}
+
+.generalinfo ul {
+    margin-bottom: 0px;
+    font-size: 18px;
+
+}
+
+.welcome-wrapper {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0px 75px;
+
+
+}
+
+
+.intro {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #9cc653;
+    text-align: center;
+    margin: 10px 400px 10px 400px;
+    background-color: #ffff
+}
+
+
+.intro2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+
+}
+
+
+.card-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+    background-color: #ffffff;
+}
+
+.firstitem {
+    padding-top: 0px;
+}
+
+.card1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #9cc653;
+    border-radius: 0 0 25px 25px;
+    padding: 0px;
+}
+
+.straight {
+    padding: 0px;
+}
+
+
+.straight li {
+
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+
+.teeth-straightening {
+    margin-bottom: 0px;
+}
+
+.card2 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 22px;
+    background-color: #60c4dc;
+    border-radius: 0 0 25px 25px;
+}
+
+.whitening {
+    padding: 0px;
+}
+
+.whitening li {
+
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+
+}
+
+.teeth-whitening {
+    margin-bottom: 0px;
+}
+
+
+
+.card3 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #9cc653;
+    border-radius: 0 0 25px 25px;
+}
+
+.implants {
+    padding: 0px;
+}
+
+.implants li {
+
+
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.implantHeader {
+    margin-bottom: 0px;
+}
+
+.card4 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #60c4dc;
+    border-radius: 0 0 25px 25px;
+
+}
+
+.crowns {
+    padding: 0px;
+}
+
+.crowns li {
+    text-align: center;
+    list-style: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+    font-size: 18px;
+
+}
+
+.crownHeader {
+    margin-bottom: 0px;
+}
+
+.team {
+    background-image: url(./assets/dentists-smiling-posing-dental-clinic.jpg);
+    background-color: #cccccc;
+    background-position: 0% 30%;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.teamBox {
+
+
+    margin: auto;
+    width: 80%;
+    background-color: rgba(96, 196, 220, .8);
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+.teamBox h1 {
+    font-size: 40px;
+}
+
+.more_alt {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #fff;
+    padding: 0px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #4fb5e4;
+    color: #fff;
+}
+
+.reviews h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #60c4dc;
+
+}
